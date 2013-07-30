@@ -16,14 +16,23 @@
 		C63540B717A764FD0088B0D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C63540B617A764FD0088B0D3 /* Default.png */; };
 		C63540B917A764FD0088B0D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63540B817A764FD0088B0D3 /* Default@2x.png */; };
 		C63540BB17A764FD0088B0D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C63540BA17A764FD0088B0D3 /* Default-568h@2x.png */; };
-		C63540BE17A764FD0088B0D3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63540BC17A764FD0088B0D3 /* MainStoryboard_iPhone.storyboard */; };
-		C63540C117A764FD0088B0D3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63540BF17A764FD0088B0D3 /* MainStoryboard_iPad.storyboard */; };
-		C63540C417A764FD0088B0D3 /* VWWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C63540C317A764FD0088B0D3 /* VWWViewController.m */; };
 		C63540CC17A764FD0088B0D3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63540CB17A764FD0088B0D3 /* SenTestingKit.framework */; };
 		C63540CD17A764FD0088B0D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63540A417A764FD0088B0D3 /* UIKit.framework */; };
 		C63540CE17A764FD0088B0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63540A617A764FD0088B0D3 /* Foundation.framework */; };
 		C63540D617A764FD0088B0D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C63540D417A764FD0088B0D3 /* InfoPlist.strings */; };
 		C63540D917A764FD0088B0D3 /* MotionSensorThereminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C63540D817A764FD0088B0D3 /* MotionSensorThereminTests.m */; };
+		C63540EA17A765620088B0D3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63540E617A765620088B0D3 /* MainStoryboard_iPad.storyboard */; };
+		C63540EB17A765620088B0D3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63540E717A765620088B0D3 /* MainStoryboard_iPhone.storyboard */; };
+		C63540EE17A765780088B0D3 /* VWWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C63540ED17A765780088B0D3 /* VWWViewController.m */; };
+		C63540FF17A765BD0088B0D3 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63540F117A765BD0088B0D3 /* CADebugMacros.cpp */; };
+		C635410017A765BD0088B0D3 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63540F517A765BD0088B0D3 /* CAStreamBasicDescription.cpp */; };
+		C635410117A765BD0088B0D3 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C63540F717A765BD0088B0D3 /* CAXException.cpp */; };
+		C635410217A765BD0088B0D3 /* VWWThereminNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = C63540FB17A765BD0088B0D3 /* VWWThereminNotes.m */; };
+		C635410317A765BD0088B0D3 /* VWWThereminSynthesizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C63540FD17A765BD0088B0D3 /* VWWThereminSynthesizer.mm */; };
+		C635410617A766300088B0D3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C635410417A766300088B0D3 /* AudioToolbox.framework */; };
+		C635410717A766300088B0D3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C635410517A766300088B0D3 /* CoreAudio.framework */; };
+		C6E4D24417A7724B00044928 /* VWWTouchScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4D24317A7724B00044928 /* VWWTouchScreenView.m */; };
+		C6E4D24717A776EF00044928 /* VWWThereminInput.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6E4D24617A776EF00044928 /* VWWThereminInput.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +59,37 @@
 		C63540B617A764FD0088B0D3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C63540B817A764FD0088B0D3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C63540BA17A764FD0088B0D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C63540BD17A764FD0088B0D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		C63540C017A764FD0088B0D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C63540C217A764FD0088B0D3 /* VWWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWViewController.h; sourceTree = "<group>"; };
-		C63540C317A764FD0088B0D3 /* VWWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWViewController.m; sourceTree = "<group>"; };
 		C63540CA17A764FD0088B0D3 /* MotionSensorThereminTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionSensorThereminTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63540CB17A764FD0088B0D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C63540D317A764FD0088B0D3 /* MotionSensorThereminTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionSensorThereminTests-Info.plist"; sourceTree = "<group>"; };
 		C63540D517A764FD0088B0D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C63540D717A764FD0088B0D3 /* MotionSensorThereminTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotionSensorThereminTests.h; sourceTree = "<group>"; };
 		C63540D817A764FD0088B0D3 /* MotionSensorThereminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionSensorThereminTests.m; sourceTree = "<group>"; };
+		C63540E617A765620088B0D3 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C63540E717A765620088B0D3 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C63540EC17A765780088B0D3 /* VWWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWViewController.h; sourceTree = "<group>"; };
+		C63540ED17A765780088B0D3 /* VWWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWViewController.m; sourceTree = "<group>"; };
+		C63540F117A765BD0088B0D3 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		C63540F217A765BD0088B0D3 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		C63540F317A765BD0088B0D3 /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
+		C63540F417A765BD0088B0D3 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		C63540F517A765BD0088B0D3 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		C63540F617A765BD0088B0D3 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		C63540F717A765BD0088B0D3 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		C63540F817A765BD0088B0D3 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		C63540F917A765BD0088B0D3 /* VWWThereminMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWThereminMath.h; sourceTree = "<group>"; };
+		C63540FA17A765BD0088B0D3 /* VWWThereminNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWThereminNotes.h; sourceTree = "<group>"; };
+		C63540FB17A765BD0088B0D3 /* VWWThereminNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWThereminNotes.m; sourceTree = "<group>"; };
+		C63540FC17A765BD0088B0D3 /* VWWThereminSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWThereminSynthesizer.h; sourceTree = "<group>"; };
+		C63540FD17A765BD0088B0D3 /* VWWThereminSynthesizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VWWThereminSynthesizer.mm; sourceTree = "<group>"; };
+		C63540FE17A765BD0088B0D3 /* VWWThereminTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWThereminTypes.h; sourceTree = "<group>"; };
+		C635410417A766300088B0D3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C635410517A766300088B0D3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C6E4D24217A7724B00044928 /* VWWTouchScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWTouchScreenView.h; sourceTree = "<group>"; };
+		C6E4D24317A7724B00044928 /* VWWTouchScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWWTouchScreenView.m; sourceTree = "<group>"; };
+		C6E4D24517A776EF00044928 /* VWWThereminInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWWThereminInput.h; sourceTree = "<group>"; };
+		C6E4D24617A776EF00044928 /* VWWThereminInput.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VWWThereminInput.mm; sourceTree = "<group>"; };
+		C6E4D24817A7773300044928 /* VWWDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWWDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C635410617A766300088B0D3 /* AudioToolbox.framework in Frameworks */,
+				C635410717A766300088B0D3 /* CoreAudio.framework in Frameworks */,
 				C63540A517A764FD0088B0D3 /* UIKit.framework in Frameworks */,
 				C63540A717A764FD0088B0D3 /* Foundation.framework in Frameworks */,
 				C63540A917A764FD0088B0D3 /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +140,8 @@
 		C63540A317A764FD0088B0D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C635410417A766300088B0D3 /* AudioToolbox.framework */,
+				C635410517A766300088B0D3 /* CoreAudio.framework */,
 				C63540A417A764FD0088B0D3 /* UIKit.framework */,
 				C63540A617A764FD0088B0D3 /* Foundation.framework */,
 				C63540A817A764FD0088B0D3 /* CoreGraphics.framework */,
@@ -119,20 +153,22 @@
 		C63540AA17A764FD0088B0D3 /* MotionSensorTheremin */ = {
 			isa = PBXGroup;
 			children = (
-				C63540B317A764FD0088B0D3 /* VWWAppDelegate.h */,
-				C63540B417A764FD0088B0D3 /* VWWAppDelegate.m */,
-				C63540BC17A764FD0088B0D3 /* MainStoryboard_iPhone.storyboard */,
-				C63540BF17A764FD0088B0D3 /* MainStoryboard_iPad.storyboard */,
-				C63540C217A764FD0088B0D3 /* VWWViewController.h */,
-				C63540C317A764FD0088B0D3 /* VWWViewController.m */,
-				C63540AB17A764FD0088B0D3 /* Supporting Files */,
+				C63540E217A765620088B0D3 /* controllers */,
+				C63540E417A765620088B0D3 /* images */,
+				C63540E517A765620088B0D3 /* storyboards */,
+				C63540AB17A764FD0088B0D3 /* supporting files */,
+				C63540EF17A765BD0088B0D3 /* synthesizer */,
+				C63540E817A765620088B0D3 /* utilities */,
+				C6E4D24117A7722700044928 /* views */,
 			);
 			path = MotionSensorTheremin;
 			sourceTree = "<group>";
 		};
-		C63540AB17A764FD0088B0D3 /* Supporting Files */ = {
+		C63540AB17A764FD0088B0D3 /* supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				C63540B317A764FD0088B0D3 /* VWWAppDelegate.h */,
+				C63540B417A764FD0088B0D3 /* VWWAppDelegate.m */,
 				C63540AC17A764FD0088B0D3 /* MotionSensorTheremin-Info.plist */,
 				C63540AD17A764FD0088B0D3 /* InfoPlist.strings */,
 				C63540B017A764FD0088B0D3 /* main.m */,
@@ -140,8 +176,9 @@
 				C63540B617A764FD0088B0D3 /* Default.png */,
 				C63540B817A764FD0088B0D3 /* Default@2x.png */,
 				C63540BA17A764FD0088B0D3 /* Default-568h@2x.png */,
+				C6E4D24817A7773300044928 /* VWWDefines.h */,
 			);
-			name = "Supporting Files";
+			name = "supporting files";
 			sourceTree = "<group>";
 		};
 		C63540D117A764FD0088B0D3 /* MotionSensorThereminTests */ = {
@@ -161,6 +198,78 @@
 				C63540D417A764FD0088B0D3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C63540E217A765620088B0D3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C63540EC17A765780088B0D3 /* VWWViewController.h */,
+				C63540ED17A765780088B0D3 /* VWWViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		C63540E417A765620088B0D3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C63540E517A765620088B0D3 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C63540E717A765620088B0D3 /* MainStoryboard_iPhone.storyboard */,
+				C63540E617A765620088B0D3 /* MainStoryboard_iPad.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		C63540E817A765620088B0D3 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		C63540EF17A765BD0088B0D3 /* synthesizer */ = {
+			isa = PBXGroup;
+			children = (
+				C63540F017A765BD0088B0D3 /* apple */,
+				C6E4D24517A776EF00044928 /* VWWThereminInput.h */,
+				C6E4D24617A776EF00044928 /* VWWThereminInput.mm */,
+				C63540F917A765BD0088B0D3 /* VWWThereminMath.h */,
+				C63540FA17A765BD0088B0D3 /* VWWThereminNotes.h */,
+				C63540FB17A765BD0088B0D3 /* VWWThereminNotes.m */,
+				C63540FC17A765BD0088B0D3 /* VWWThereminSynthesizer.h */,
+				C63540FD17A765BD0088B0D3 /* VWWThereminSynthesizer.mm */,
+				C63540FE17A765BD0088B0D3 /* VWWThereminTypes.h */,
+			);
+			path = synthesizer;
+			sourceTree = "<group>";
+		};
+		C63540F017A765BD0088B0D3 /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				C63540F117A765BD0088B0D3 /* CADebugMacros.cpp */,
+				C63540F217A765BD0088B0D3 /* CADebugMacros.h */,
+				C63540F317A765BD0088B0D3 /* CADebugPrintf.h */,
+				C63540F417A765BD0088B0D3 /* CAMath.h */,
+				C63540F517A765BD0088B0D3 /* CAStreamBasicDescription.cpp */,
+				C63540F617A765BD0088B0D3 /* CAStreamBasicDescription.h */,
+				C63540F717A765BD0088B0D3 /* CAXException.cpp */,
+				C63540F817A765BD0088B0D3 /* CAXException.h */,
+			);
+			path = apple;
+			sourceTree = "<group>";
+		};
+		C6E4D24117A7722700044928 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C6E4D24217A7724B00044928 /* VWWTouchScreenView.h */,
+				C6E4D24317A7724B00044928 /* VWWTouchScreenView.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +348,8 @@
 				C63540B717A764FD0088B0D3 /* Default.png in Resources */,
 				C63540B917A764FD0088B0D3 /* Default@2x.png in Resources */,
 				C63540BB17A764FD0088B0D3 /* Default-568h@2x.png in Resources */,
-				C63540BE17A764FD0088B0D3 /* MainStoryboard_iPhone.storyboard in Resources */,
-				C63540C117A764FD0088B0D3 /* MainStoryboard_iPad.storyboard in Resources */,
+				C63540EA17A765620088B0D3 /* MainStoryboard_iPad.storyboard in Resources */,
+				C63540EB17A765620088B0D3 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +386,14 @@
 			files = (
 				C63540B117A764FD0088B0D3 /* main.m in Sources */,
 				C63540B517A764FD0088B0D3 /* VWWAppDelegate.m in Sources */,
-				C63540C417A764FD0088B0D3 /* VWWViewController.m in Sources */,
+				C63540EE17A765780088B0D3 /* VWWViewController.m in Sources */,
+				C63540FF17A765BD0088B0D3 /* CADebugMacros.cpp in Sources */,
+				C635410017A765BD0088B0D3 /* CAStreamBasicDescription.cpp in Sources */,
+				C635410117A765BD0088B0D3 /* CAXException.cpp in Sources */,
+				C635410217A765BD0088B0D3 /* VWWThereminNotes.m in Sources */,
+				C635410317A765BD0088B0D3 /* VWWThereminSynthesizer.mm in Sources */,
+				C6E4D24417A7724B00044928 /* VWWTouchScreenView.m in Sources */,
+				C6E4D24717A776EF00044928 /* VWWThereminInput.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +422,6 @@
 				C63540AE17A764FD0088B0D3 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C63540BC17A764FD0088B0D3 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C63540BD17A764FD0088B0D3 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C63540BF17A764FD0088B0D3 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C63540C017A764FD0088B0D3 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		C63540D417A764FD0088B0D3 /* InfoPlist.strings */ = {
@@ -468,6 +568,7 @@
 				C63540DE17A764FD0088B0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C63540DF17A764FD0088B0D3 /* Build configuration list for PBXNativeTarget "MotionSensorThereminTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +577,7 @@
 				C63540E117A764FD0088B0D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
