@@ -15,7 +15,7 @@
 #define VWW_INPUT_FREQUENCY_MIN     30.0
 #define VWW_WAVETYPE                kWaveTriangle
 #define VWW_SENSITIVITY             1.0
-#define VWW_EFFECT                  kEffectNone
+#define VWW_EFFECT                  kEffectAutoTune
 #define VWW_INPUT_TYPE              kInputTouch
 #define VWW_AMPLITUDE               1.0
 #define VWW_NOTE_KEY                kNoteKeyChromatic
