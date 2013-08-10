@@ -93,6 +93,10 @@ OSStatus RenderTone( void* inRefCon,
 
 
 
+
+
+
+
 @interface VWWThereminSynthesizer (){
     AudioComponentInstance _toneUnit;
 }
@@ -106,6 +110,16 @@ OSStatus RenderTone( void* inRefCon,
 
 
 @implementation VWWThereminSynthesizer
+
++(VWWThereminSynthesizer*)sharedInstance{
+    static VWWThereminSynthesizer* instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[VWWThereminSynthesizer alloc]init];
+    });
+    return instance;
+}
+
 
 -(id)initWithAmplitude:(float)amplitude andFrequency:(float)frequency{
     self = [super init];

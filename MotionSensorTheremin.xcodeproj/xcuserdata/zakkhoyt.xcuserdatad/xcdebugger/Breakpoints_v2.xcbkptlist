@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MotionSensorTheremin/controllers/VWWViewController.m"
-            timestampString = "397533217.754124"
+            timestampString = "397796323.622125"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "-configureTouchScreenView"
             landmarkType = "5">
          </BreakpointContent>

@@ -22,6 +22,10 @@
 @property double                    sinPhase;           // 0 - pi
 @property double                    theta;              //
 
+
+
++(VWWThereminSynthesizer*)sharedInstance;
+
 -(id)initWithAmplitude:(float)amplitude andFrequency:(float)frequency;
 - (void)start;
 - (void)stop;

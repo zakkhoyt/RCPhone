@@ -44,7 +44,10 @@ static __attribute ((unused)) NSString* kKeyNone = @"none";
         _muted = VWW_MUTED;
 
         _frequency = _frequencyMax;
-        _synthesizer = [[VWWThereminSynthesizer alloc]initWithAmplitude:_amplitude andFrequency:_frequency];
+//        _synthesizer = [[VWWThereminSynthesizer alloc]initWithAmplitude:_amplitude andFrequency:_frequency];
+        _synthesizer = [[VWWThereminSynthesizer alloc]init];
+        _synthesizer.amplitude = _amplitude;
+        _synthesizer.frequency = _frequency;
         _synthesizer.waveType = _waveType;
         _synthesizer.effectType = _effectType;
         _synthesizer.muted = _muted;
